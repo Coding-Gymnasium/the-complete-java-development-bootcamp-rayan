@@ -27,9 +27,9 @@ public class SignUp {
 
     System.out.println("What city do you live in?");
     String city = scan.next();
-    String country = scan.next();
 
     System.out.println("What country is that?");
+    String country = scan.next();
 
     System.out.println("Thank you for joining JavaGram!");
     System.out.println("\nHere is the information you entered:");
