@@ -11,6 +11,8 @@ public class Parameters {
 
     String explanation1 = explainArea(2.3, 3.5, "Spanish");
     System.out.println(explanation1);
+
+    printArea(2.3, 3.5, area1);
   }
 
   public static BigDecimal calculateArea(double length, double width) {
@@ -38,6 +40,11 @@ public class Parameters {
       default:
         return "Language not available";
     }
+  }
+
+  public static void printArea(double length, double width, BigDecimal area) {
+    System.out.println(
+        "A rectangle with a length of " + length + " and a width of " + width + " has an area of " + area + ".");
   }
 
 }
