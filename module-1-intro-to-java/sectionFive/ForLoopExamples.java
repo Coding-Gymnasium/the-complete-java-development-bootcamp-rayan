@@ -36,8 +36,8 @@ public class ForLoopExamples {
     // TODO: Write a for loop that prints the first 10 even numbers
     System.out.println("\nExercise 5:");
     int count = 0;
-    for (int i = 1; i <= 100; i++) {
-      if ((i % 2) == 0 && count < 10) {
+    for (int i = 1; count < 10; i++) {
+      if ((i % 2) == 0) {
         System.out.println(i);
         count++;
       } else {
