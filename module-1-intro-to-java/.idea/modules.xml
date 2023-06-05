@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-getting-started/1-getting-started.iml" filepath="$PROJECT_DIR$/1-getting-started/1-getting-started.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-variables/2-variables.iml" filepath="$PROJECT_DIR$/2-variables/2-variables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-booleans-and-conditionals/3-booleans-and-conditionals.iml" filepath="$PROJECT_DIR$/3-booleans-and-conditionals/3-booleans-and-conditionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-functions/4-functions.iml" filepath="$PROJECT_DIR$/4-functions/4-functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-loops/5-loops.iml" filepath="$PROJECT_DIR$/5-loops/5-loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-arrays/6-arrays.iml" filepath="$PROJECT_DIR$/6-arrays/6-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/capstone-project/capstone-project.iml" filepath="$PROJECT_DIR$/capstone-project/capstone-project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-1-intro-to-java.iml" filepath="$PROJECT_DIR$/module-1-intro-to-java.iml" />
+    </modules>
+  </component>
+</project>
