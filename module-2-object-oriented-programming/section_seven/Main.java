@@ -8,6 +8,10 @@ public class Main {
 
     Car dodge = new Car("Dodge", 11000, 2019, "Blue");
 
+    nissan.setColor("Jet Black");
+    dodge.setPrice(5000);
+    nissan.setPrice(nissan.getPrice() / 3);
+
     System.out.println("This " + nissan.getMake() + " is worth $" + nissan.getPrice() +
         ". It was built in " + nissan.getYear() + ". It is " + nissan.getColor() + ".\n");
     System.out.println("This " + dodge.getMake() + " is worth $" + dodge.getPrice() +
