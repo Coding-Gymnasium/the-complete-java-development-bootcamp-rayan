@@ -72,4 +72,13 @@ public class Car {
         " 🎉.");
     System.out.println(this.parts[0]);
   }
+
+  @Override
+  public String toString() {
+    return "Make: " + this.make + ".\n"
+        + "Price: " + this.price + ".\n"
+        + "Year: " + this.year + ".\n"
+        + "Color: " + this.color + ".\n"
+        + "Parts: " + Arrays.toString(parts) + ".\n";
+  }
 }
