@@ -1,9 +1,5 @@
 package section_seven;
 
-import java.util.Arrays;
-
-import model.Car;
-
 public class Dealership {
   private Car[] cars;
 
@@ -12,6 +8,16 @@ public class Dealership {
     for (int i = 0; i < cars.length; i++) {
       this.cars[i] = new Car(cars[i]);
     }
+  }
+
+  public Car getCar(int index) {
+    Car copy = new Car(this.cars[index]);
+    return copy;
+  }
+
+  public void setCar(int index, Car newCar) {
+    Car copy = new Car(newCar);
+    this.cars[index] = copy;
   }
 
   public void sell(int index) {
