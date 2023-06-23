@@ -2,6 +2,8 @@ package nico_solution;
 
 public class Main {
 
+  static Store store = new Store();
+
   public static void main(String[] args) {
     Movie[] movies = new Movie[] {
         new Movie("The Shawshank Redemption", "BlueRay", 9.2),
@@ -14,11 +16,14 @@ public class Main {
         new Movie("The Lord of the Rings: The Fellowship of the Ring", "DVD", 8.8)
     };
 
-    System.out.println("********************************MOVIE STORE*******************************");
     for (int i = 0; i < movies.length; i++) {
-      System.out.println(movies[i]);
+      store.setMovie(i, movies[i]);
     }
 
+    System.out.println("********************************MOVIE STORE*******************************");
+    for (int i = 0; i < movies.length; i++) {
+      System.out.println(store.getMovie(i));
+    }
   }
 
 }
