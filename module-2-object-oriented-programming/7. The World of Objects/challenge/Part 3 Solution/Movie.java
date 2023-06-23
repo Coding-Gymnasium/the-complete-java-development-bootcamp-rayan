@@ -18,7 +18,7 @@ public class Movie {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -26,11 +26,11 @@ public class Movie {
     }
     
     public String getFormat() {
-        return format;
+        return this.format;
     }
 
     public double getRating() {
-        return rating;
+        return this.rating;
     }
 
     public void setFormat(String format) {
