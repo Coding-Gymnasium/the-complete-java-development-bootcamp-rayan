@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         City paris = new City("Paris", 2161000);
+//      City paris2 = paris;
+        City paris2 = new City(paris);
+        System.out.println(paris.equals(paris2));
 //        City copy = new City(paris);
 
 //        System.out.println(paris.equals(copy));
